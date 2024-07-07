@@ -1,0 +1,104 @@
+html,
+body,
+div {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background: #191b16 50% 0 no-repeat url('../img/page-background.jpg');
+  background-size: cover;
+  padding-top: 10vw;
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 2em 0 .5em;
+  font-size: 24px;
+}
+
+h2 {
+  margin: 2em 0 .5em;
+  font-size: 20px;
+}
+
+h3 {
+  margin: 1.5em 0 .5em;
+  font-size: 18px;
+}
+
+h4 {
+  margin: 1em 0 .5em;
+  font-size: 16px;
+}
+
+p {
+  margin: 1em 0 .5em;
+  font-size: 14px;
+}
+
+.layout__wrapper {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.layout__container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.presentation__notice-bar {
+  margin: 2em 0 .5em;
+  padding: 15px 25px 15px 40px;
+  border-radius: 5px;
+  font-size: 12px;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.presentation__notice-bar img {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  color: #fff;
+}
+
+.presentation__notice-bar--info {
+  background-color: #274281;
+  color: #fff;
+}
+
+.presentation__notice-bar--error {
+  background-color: #812727;
+  color: #fff;
+}
+
+.presentation__text-center {
+  text-align: center;
+}
+
+.presentation__inline-code {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,.25);
+}

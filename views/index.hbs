@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/shared.css" />
+    <link rel="stylesheet" href="/styles/index.css" />
+  </head>
+  <body>
+    <div class="layout__wrapper">
+      <header class="layout__container">
+        <img src="/img/header-background.jpg" width="960" alt="" />
+        <img src="/img/astero.png" width="350" id="astero-one" alt="" />
+        <img src="/img/astero.png" width="180" id="astero-two" alt="" />
+        <nav>
+          <a href=""><img src="/img/logo-regular.jpg" width="90" alt="" /></a>
+          <ul>
+            <li><a href="">Delete</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="layout__container">
+        <div class="">
+          <h1>EVE-Online Account Verification</h1>
+          <p>To access our Discord you must link your EVE-Online account. We're mostly interested in your current account status and active corporation, we use this data to assign roles and set what you can and cannot see in Discord.</p>
+          {{#if hash}}
+            <p><span class="presentation__notice-bar presentation__notice-bar--info"><img src="/img/icons/notice-outline.svg" alt="" />You can delete your Sakagami Incorporated account at any time.</span></p>          
+            <p class="presentation__text-center"><a href="https://login.eveonline.com/v2/oauth/authorize/?response_type=code&redirect_uri={{redirectUri}}&client_id={{clientID}}&scope=publicData esi-characters.read_corporation_roles.v1 esi-corporations.read_titles.v1&state={{hash}}"><img src="/img/eve-sso-login-black-large.png" alt="Login to EVE-Online" />
+            <br /><small class="login-link__wrapper">[ https://login.eveonline.com ]</small></a></p>
+          {{else}}
+            <p><span class="presentation__notice-bar presentation__notice-bar--error"><img src="/img/icons/notice-outline.svg" alt="" />Discord ID is missing, please start verification from Discord.</span></p>
+            <p class="presentation__text-center">Please use the <span class="presentation__inline-code">!verify</span> command in our <span class="presentation__inline-code">#eve-account-link</span> channel in Discord to register, this will capture your Discord ID automatically.</p>
+          {{/if}}
+        </div>
+      </main>
+      <footer class="layout__container">
+        <p>Website Copyright &copy; 2024-2025 Sakagami Incorporated
+        <br />EVE-Online &amp; Associated Materials Copyright © CCP 1997-2025</p>
+      </footer>
+    </div>
+  </body>
+</html>

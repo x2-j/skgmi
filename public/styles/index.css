@@ -1,0 +1,79 @@
+header {
+  position: relative;
+  background: #191b16;
+}
+
+#astero-one,
+#astero-two {
+  position: absolute;
+}
+
+#astero-one {
+  left: 45%;
+  bottom: 100px;
+}
+
+#astero-two {
+  left: 80%;
+  bottom: 160px;
+  transform: rotate(-10deg);
+}
+
+header nav {
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav > a {
+  
+}
+
+header nav ul,
+header nav li {
+  list-style: none;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav li {
+  display: flex;
+  align-items: center;
+}
+
+header nav li a {
+  display: inline-block;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  background: #b9bab9;
+  padding: 0 15px 50px 15px;
+  border-radius: 0 0 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center !important;
+}
+
+main > div {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.login-link__wrapper {
+  display: inline-block;
+  padding: 5px;
+  color: #333;
+}
+
+footer p {
+  padding: 50px 0;
+  text-align: center;
+  color: #53584e;
+  font-size: 14px;
+  line-height: 2em;
+}
