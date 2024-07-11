@@ -30,7 +30,7 @@ import {
 
 const APP_URL =
   process.env.NODE_ENV === 'production'
-    ? 'https://chambray-magenta-bellusaurus.glitch.me'
+    ? 'https://skgmi.onrender.com'
     : 'http://localhost:3000';
 const CALLBACK_URI = APP_URL + '/sso/';
 
