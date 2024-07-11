@@ -16,16 +16,14 @@ export const db = () => {
       var created = new sqlite3.Database('data/users.db', (err: string) => {
         if (err) {
             console.log("createDatabase: Getting error " + err);
-            // exit(1);
-            process.exit(1)
+            process.exit(1);
         }
         createTables();
       });
       conn = created;
     } else if (err) {
       console.log("Getting error " + err);
-      // exit(1);
-      process.exit(1)
+      process.exit(1);
     }
   });
 
@@ -42,8 +40,6 @@ function createTables() {
       discord_id TEXT NOT NULL UNIQUE,
       hash TEXT NOT NULL,
       status TEXT,
-      access_token TEXT,
-      refresh_token TEXT,
       character_id TEXT
   );`, () => {
     console.log('Table created...')
@@ -62,7 +58,7 @@ export function createUser(discordId: string): Promise<void> {
       }
 
       const hash = hashIt(discordId);
-      conn.run('INSERT INTO users VALUES (null, null, null, ?, ?, ?, null, null, null)', [discordId, hash, 'pending'])
+      conn.run('INSERT INTO users VALUES (null, null, null, ?, ?, ?, null)', [discordId, hash, 'pending'])
 
       logAllUsers()
       resolve();
