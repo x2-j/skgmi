@@ -1,0 +1,158 @@
+{
+  ".env": {
+    "mt": "Sun Jul 07 2024 14:05:42 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\.env"
+  },
+  ".gitignore": {
+    "mt": "Thu Jul 11 2024 18:00:50 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\.gitignore"
+  },
+  ".prettierrc": {
+    "mt": "Thu Jul 11 2024 16:34:21 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\.prettierrc"
+  },
+  "data/users.db": {
+    "mt": "Thu Jul 11 2024 18:01:37 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\data\\users.db"
+  },
+  "dist/database.js": {
+    "mt": "Thu Jul 11 2024 18:15:46 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\dist\\database.js"
+  },
+  "dist/server.js": {
+    "mt": "Thu Jul 11 2024 18:15:46 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\dist\\server.js"
+  },
+  "docker-compose.yaml": {
+    "mt": "Fri Jul 19 2024 13:20:22 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\docker-compose.yaml"
+  },
+  "Dockerfile": {
+    "mt": "Sat Jul 20 2024 00:48:10 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\Dockerfile"
+  },
+  "nodemon.json": {
+    "mt": "Tue Jul 02 2024 16:32:10 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\nodemon.json"
+  },
+  "package-lock.json": {
+    "mt": "Fri Jul 19 2024 14:48:33 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\package-lock.json"
+  },
+  "package.json": {
+    "mt": "Sat Jul 20 2024 01:18:16 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\package.json"
+  },
+  "public/img/astero.png": {
+    "mt": "Tue Jul 02 2024 22:14:39 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\public\\img\\astero.png"
+  },
+  "public/img/eve-sso-login-black-large.png": {
+    "mt": "Tue Jul 02 2024 23:51:35 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\public\\img\\eve-sso-login-black-large.png"
+  },
+  "public/img/header-background.jpg": {
+    "mt": "Tue Jul 02 2024 22:15:38 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\public\\img\\header-background.jpg"
+  },
+  "public/img/icons/notice-outline.svg": {
+    "mt": "Wed Jul 03 2024 00:39:31 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\public\\img\\icons\\notice-outline.svg"
+  },
+  "public/img/icons/spinner.svg": {
+    "mt": "Wed Jul 03 2024 03:12:47 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\public\\img\\icons\\spinner.svg"
+  },
+  "public/img/logo-regular.jpg": {
+    "mt": "Tue Jul 02 2024 22:16:56 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\public\\img\\logo-regular.jpg"
+  },
+  "public/img/page-background.jpg": {
+    "mt": "Tue Jul 02 2024 22:35:52 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\public\\img\\page-background.jpg"
+  },
+  "public/styles/index.css": {
+    "mt": "Wed Jul 03 2024 03:13:32 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\public\\styles\\index.css"
+  },
+  "public/styles/shared.css": {
+    "mt": "Wed Jul 03 2024 02:57:20 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\public\\styles\\shared.css"
+  },
+  "src/database.ts": {
+    "mt": "Thu Jul 11 2024 16:01:32 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\src\\database.ts"
+  },
+  "src/server.ts": {
+    "mt": "Sun Jul 21 2024 17:41:03 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\src\\server.ts"
+  },
+  "tsconfig.json": {
+    "mt": "Fri Jul 19 2024 14:41:56 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\tsconfig.json"
+  },
+  "views/404.hbs": {
+    "mt": "Fri Jul 05 2024 20:34:56 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\views\\404.hbs"
+  },
+  "views/index.hbs": {
+    "mt": "Fri Jul 05 2024 22:33:47 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\views\\index.hbs"
+  },
+  "views/verified.hbs": {
+    "mt": "Fri Jul 05 2024 21:33:16 GMT+0100 (British Summer Time)",
+    "exists": true,
+    "state": 1,
+    "path": "G:\\Bots\\SKGMI\\views\\verified.hbs"
+  }
+}

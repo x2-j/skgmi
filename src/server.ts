@@ -30,7 +30,7 @@ import {
 
 const APP_URL =
   process.env.NODE_ENV === 'production'
-    ? 'https://skgmi.onrender.com'
+    ? 'https://skgmi-11292.nodechef.com'
     : 'http://localhost:3000';
 const CALLBACK_URI = APP_URL + '/sso/';
 
